@@ -1,0 +1,9 @@
+2020-09-15 10:05:37,682 INFO: 正在等待到达设定时间:2020-09-15 12:00:01.500000
+2020-09-15 12:00:01,588 INFO: 时间到达，开始执行……
+2020-09-15 12:00:01,603 INFO: 第[1/2]次尝试定时预约
+2020-09-15 12:00:01,800 ERROR: {"balance":-1,"appointmentId":null,"stationEntrance":null}
+2020-09-15 12:00:02,265 INFO: Message sent successfully [text: 预约失败：{"balance":-1,"appointmentId":null,"stationEntrance":null}, desp: [2020-09-15 12:00:01.800573]]
+2020-09-15 12:00:02,265 INFO: 休息2s
+2020-09-15 12:00:04,266 INFO: 第[2/2]次尝试定时预约
+2020-09-15 12:00:04,430 INFO: {"balance":108,"appointmentId":"000d922e","stationEntrance":"A2口"}
+2020-09-15 12:00:04,620 INFO: Message sent successfully [text: 预约成功：{"balance":108,"appointmentId":"000d922e","stationEntrance":"A2口"}, desp: [2020-09-15 12:00:04.431903]]
