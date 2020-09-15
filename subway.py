@@ -61,19 +61,3 @@ class Subway(object):
         logger.info(result.text)
         self.messenger.send(text='预约成功：%s' % result.text)
         return True
-
-    def get_info(self):
-        url=BASE_URL+"/User/GetUserInfoByUserId"
-        result=requests.get(url,headers=self.header,verify=False)
-        print(result.text)
-
-    def get_auth(self):
-        url=BASE_URL+"/User/GetWXUserInfoAndUpdate"
-        result=requests.get(url,headers=self.header,verify=False)
-        print(result.text)
-
-    def test(self):
-        url="/EasyToPass/CheckOpenid"
-        result=requests.get(url)
-        print(result.text)
-        # self.messenger.send(text='预约结果：%s' % '测试')
